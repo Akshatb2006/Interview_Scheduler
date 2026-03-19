@@ -1,2 +1,11 @@
+[project]
+name = "interview-scheduler"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1",
+    "flask-cors>=5",
+]
+
 [tool.pytest.ini_options]
 pythonpath = ["."]
